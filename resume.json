@@ -1,0 +1,219 @@
+{
+  "basics": {
+    "name": "Claudio Rodríguez",
+    "label": "Software Architect",
+    "picture": "assets/images/me.jpg",
+    "email": "cjrodr@yahoo.com",
+    "phone": "+44 20 8123 1722",
+    "website": "http://claudiorodriguez.io",
+    "summary": "I am a detail-oriented, highly adaptable software developer, currently focusing heavily on Javascript as a full-stack language for both web and mobile applications. I love teaming up with other great people and producing software of the greatest possible quality. I especially enjoy it when the end-users have a great time.",
+    "location": {
+      "city": "London",
+      "countryCode": "UK"
+    },
+    "profiles": [{
+      "network": "Github",
+      "username": "claudiorodriguez",
+      "icon": "github",
+      "url": "http://github.com/claudiorodriguez"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "claudiojoserodriguez",
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/claudiojoserodriguez"
+    },
+    {
+      "network": "Website",
+      "username": "claudiorodriguez.io",
+      "icon": "link",
+      "url": "http://claudiorodriguez.io"
+    }]
+  },
+  "work": [{
+    "company": "FWTV",
+    "position": "MEAN Stack Tech Lead / Architect",
+    "website": "https://www.fwtv.tv",
+    "startDate": "2011-11-01",
+    "endDate": "2016-02-01",
+    "timeString": "4+ years",
+    "summary": "Starting from the company's birth, I selected a team of talented developers (which shifted throughout the years between 4 and 6 people), and then led them through the creation of several MEAN stack (MongoDB, Express, AngularJS, Node.js) apps, whose architectures I designed, and then updated, according to the company's changing needs.<br><br>I participated heavily in the development effort itself, mainly in the backend REST API, and laying down the architecture of the various front-end apps, which, during the later stages, included an Ionic-based mobile app powered by the Apache Cordova platform. We also developed Business Intelligence tools to enable the heads of other departments to extract useful information from our Hadoop cluster.<br><br>Software development aside, I managed the company's relationship with various tech service providers, including contract negotiation and management of external teams.<br>During my time there, I spent a lot of time working on video streaming and encoding, both live and on-demand. I dealt with performance issues, ingest/processing workflows, encoding parameters optimization and the like."
+  },
+  {
+    "company": "Trix Solutions",
+    "position": "PHP5 + Symfony Tech Lead / Architect",
+    "website": "http://www.trixsoluciones.com/",
+    "startDate": "2009-08-01",
+    "endDate": "2011-08-01",
+    "timeString": "2 years",
+    "summary": "Established and maintained a completely new tech stack (Using Symfony, a PHP5 MVC, OOP framework, postgreSQL with Doctrine ORM) and work methodology (including code versioning). Worked on several different projects ranging from a huge corporate intranet app, to a user-oriented complex business matchmaking app."
+  },
+  {
+    "company": "Various companies",
+    "position": "PHP Developer",
+    "website": "#",
+    "startDate": "2005-12-01",
+    "endDate": "2009-08-01",
+    "timeString": "~4 years",
+    "summary": "Worked as a PHP developer in several companies, both on frontend and backend."
+  }],
+  "projects": [{
+    "name": "Node.js (collaborator)",
+    "website": "https://nodejs.org",
+    "summary": "As an official collaborator and member of the Node.js foundation, I help review and integrate other contributors' work into the project. I also make contributions of my own, mostly on the areas of tests, build and docs."
+  },
+  {
+    "name": "rgba-to-datauri",
+    "website": "https://github.com/claudiorodriguez/rgba-to-datauri",
+    "summary": "Simple module that converts either a flat array of RGBA quadruplets (array of 4 integers) or a flattened Buffer ([r,g,b,a,r,g,b,a,...]) into a PNG base64 encoded datauri."
+  },
+  {
+    "name": "numeric-mastermind-solver-js",
+    "website": "https://github.com/claudiorodriguez/numeric-mastermind-solver-js",
+    "summary": "Step-by-step mastermind solver module. Published through both npm and bower."
+  },
+  {
+    "name": "gulp-resume",
+    "website": "https://github.com/claudiorodriguez/gulp-resume",
+    "summary": "The code that generates this page! A minimalistic approach meant to showcase gulp pipelines."
+  },
+  {
+    "name": "galactic-history-generator",
+    "website": "https://github.com/claudiorodriguez/galactic-history-generator",
+    "summary": "A procedural generator that should come up with a universe's timeline of events."
+  },
+  {
+    "name": "galactic-history-viewer",
+    "website": "https://github.com/claudiorodriguez/galactic-history-viewer",
+    "summary": "Electron-powered desktop app that visualizes the results of galactic-history-generator."
+  }],
+  "skills": [{
+    "name": "Node.js",
+    "image": "assets/images/icons/nodejs.png",
+    "url": "https://nodejs.org"
+  },
+  {
+    "name": "AngularJS",
+    "image": "assets/images/icons/angular.png",
+    "url": "https://angularjs.org"
+  },
+  {
+    "name": "React",
+    "image": "assets/images/icons/react.png",
+    "url": "https://facebook.github.io/react"
+  },
+  {
+    "name": "Ionic",
+    "image": "assets/images/icons/ionic.png",
+    "url": "http://ionicframework.com"
+  },
+  {
+    "name": "Gulp",
+    "image": "assets/images/icons/gulp.png",
+    "url": "http://gulpjs.com"
+  },
+  {
+    "name": "Grunt",
+    "image": "assets/images/icons/grunt.png",
+    "url": "http://gruntjs.com"
+  },
+  {
+    "name": "Browserify",
+    "image": "assets/images/icons/browserify.png",
+    "url": "http://browserify.org"
+  },
+  {
+    "name": "Webpack",
+    "image": "assets/images/icons/webpack.png",
+    "url": "https://webpack.github.io"
+  },
+  {
+    "name": "Mocha",
+    "image": "assets/images/icons/mocha.png",
+    "url": "https://mochajs.org"
+  },
+  {
+    "name": "Chai",
+    "image": "assets/images/icons/chai.png",
+    "url": "http://chaijs.com"
+  },
+  {
+    "name": "PostgreSQL",
+    "image": "assets/images/icons/postgresql.png",
+    "url": "http://www.postgresql.org"
+  },
+  {
+    "name": "MongoDB",
+    "image": "assets/images/icons/mongodb.png",
+    "url": "https://www.mongodb.org"
+  }],
+  "otherSkills": [
+  {
+    "name": "Apache Cordova",
+    "url": "https://cordova.apache.org"
+  },
+  {
+    "name": "PhoneGap",
+    "url": "http://phonegap.com"
+  },
+  {
+    "name": "Electron",
+    "url": "http://electron.atom.io"
+  },
+  {
+    "name": "Redis",
+    "url": "http://redis.io"
+  },
+  {
+    "name": "Docker",
+    "url": "https://www.docker.com"
+  },
+  {
+    "name": "Hadoop",
+    "url": "http://hadoop.apache.org"
+  },
+  {
+    "name": "RxJS",
+    "url": "http://reactivex.io/rxjs"
+  },
+  {
+    "name": "PHP (8 years exp.)",
+    "url": "http://php.net"
+  },
+  {
+    "name": "Symfony 1 & 2 (4 years exp.)",
+    "url": "https://symfony.com"
+  },
+  {
+    "name": "jQuery",
+    "url": "https://jquery.com"
+  },
+  {
+    "name": "Ext JS",
+    "url": "https://www.sencha.com/products/extjs"
+  },
+  {
+    "name": "memcached",
+    "url": "https://memcached.org"
+  },
+  {
+    "name": "FFmpeg / video encoding in general",
+    "url": "https://www.ffmpeg.org"
+  },
+  {
+    "name": "Akamai video transcoding/streaming",
+    "url": "https://www.akamai.com"
+  },
+  {
+    "name": "Doctrine ORM",
+    "url": "http://www.doctrine-project.org"
+  },
+  {
+    "name": "Propel ORM",
+    "url": "http://propelorm.org"
+  },
+  {
+    "name": "Java SE (desktop apps)",
+    "url": "http://www.oracle.com/technetwork/java/javase/overview/index.html"
+  }]
+}

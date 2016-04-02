@@ -1,0 +1,26 @@
+<header class="personal container-fluid">
+  <header class="identity col-md-6 col-md-offset-3 text-center">
+    <img class="picture" src="{{basics.picture}}">
+    <h1>{{basics.name}}</h1>
+    <p class="lead">{{basics.label}}</p>
+  </header>
+  <ul class="links row col-md-10 col-md-offset-1">
+    <li class="col-md-4">
+      <i class="fa fa-map-marker"></i> {{basics.location.city}}, {{basics.location.countryCode}}
+    </li>
+    <li class="col-md-4">
+      <i class="fa fa-phone"></i> {{basics.phone}}
+    </li>
+    <li class="col-md-4">
+      <i class="fa fa-envelope"></i> <a href="mailto:{{basics.email}}">{{basics.email}}</a>
+    </li>
+    {% for profile in basics.profiles %}
+      <li class="col-md-4">
+        <i class="fa fa-{{profile.icon}}"></i> <a href="{{profile.url}}">{{profile.username}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <p class="summary col-md-10 col-md-offset-1">
+    {{basics.summary}}
+  </p>
+</header>

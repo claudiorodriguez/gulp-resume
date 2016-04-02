@@ -1,0 +1,15 @@
+<section class="projects">
+  <div class="container-fluid">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Open source projects:</h2>
+      <div class="project-list list-group">
+        {% for project in projects %}
+          <a href="{{project.url}}" class="list-group-item">
+            <h4 class="list-group-item-heading">{{project.name}}</h4>
+            <p class="list-group-item-text">{{project.summary}}</p>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

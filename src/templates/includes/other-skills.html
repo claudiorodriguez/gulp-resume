@@ -1,0 +1,14 @@
+<section class="other-skills">
+  <div class="container-fluid">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Some more things I have worked with:</h2>
+      <div class="skill-list">
+        {% for skill in otherSkills %}
+          <a href="{{skill.url}}" class="label label-primary">
+            {{skill.name}}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

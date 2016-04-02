@@ -1,0 +1,17 @@
+<section class="work">
+  <div class="container-fluid">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Work experience:</h2>
+      <div class="work-list">
+        {% for workplace in work %}
+        <div class="workplace panel panel-default">
+          <div class="name panel-heading"><span class="position">{{workplace.position}}</span> at <a href="{{workplace.website}}">{{workplace.company}}</a> (<abbr title="{{workplace.startDate|date('F Y')}} to {{workplace.endDate|date('F Y')}}">{{workplace.timeString}}</abbr>)</div>
+          <div class="panel-body">
+            <p class="summary">{{workplace.summary|raw}}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

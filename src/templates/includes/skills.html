@@ -1,0 +1,19 @@
+<section class="skills">
+  <div class="container-fluid">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Things I've been working with during the last ~4 years:</h2>
+      <ul class="skill-list row">
+        {% for skill in skills %}
+          <li class="col-md-3">
+            <a href="{{skill.url}}">
+              <div class="logo-wrap">
+                <img src="{{skill.image}}" alt="{{skill.name}}">
+              </div>
+              <p class="name">{{skill.name}}</p>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
